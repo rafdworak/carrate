@@ -70,9 +70,9 @@ const getRecipes = async () => {
   return (
     <div className="APP">
       <form onSubmit={getSearch} className="searchbar">
-        <div className="searchbar-button-container">
+        {/* <div className="searchbar-button-container">
           <Menu />
-        </div>
+        </div> */}
         <input
           className="searchbar-text"
           type="text"
